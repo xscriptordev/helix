@@ -2,7 +2,7 @@
 
 <p align="center"> <img src="./assets/icon.png" width="200" alt="Xscriptor Theme logo" /> </p>
 
-Essential settings and customizations to improve accessibility and customization of helix using the Xscriptor themes.
+Essential settings and customizations to improve accessibility of helix using the Xscriptor themes.
 
 
 ![Preview](./assets/preview/preview01.png)
