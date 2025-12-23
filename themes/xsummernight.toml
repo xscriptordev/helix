@@ -1,4 +1,4 @@
-# xscriptorcp.toml  (autor: Xscriptor)
+# xscriptor.toml  (autor: Xscriptor)
 
 "ui.background" = { bg = "bg" }
 "ui.text"       = { fg = "fg" }
