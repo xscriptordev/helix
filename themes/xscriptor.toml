@@ -15,6 +15,7 @@
 "ui.bufferline.active" = { fg = "bg", bg = "accent" }
 "ui.bufferline.inactive" = { fg = "muted", bg = "gutter" }
 "ui.bufferline.background" = { bg = "gutter" }
+"ui.virtual.ruler" = { bg = "gutter" }
 
 "diagnostic.error" = { fg = "color1" }
 "diagnostic.warning" = { fg = "color2" }
@@ -81,4 +82,3 @@ color3 = "#fce566"
 color4 = "#7bd88f"
 color5 = "#5ad4e6"
 color6 = "#948ae3"
-

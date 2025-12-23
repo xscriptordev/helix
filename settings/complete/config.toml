@@ -3,22 +3,41 @@ theme = "xscriptor"
 [editor]
 line-number = "relative"
 mouse = true
+middle-click-paste = true
+scrolloff = 5
+scroll-lines = 3
+shell = ["sh", "-c"]
+continue-comments = true
 cursorline = true
+cursorcolumn = false
 bufferline = "multiple"
 color-modes = true
 true-color = true
+undercurl = false
 auto-completion = true
 completion-trigger-len = 1
 completion-timeout = 120
 preview-completion-insert = true
 path-completion = true
+completion-replace = false
+auto-info = true
 auto-format = true
 idle-timeout = 400
 text-width = 100
 rulers = [80, 100, 120]
 popup-border = "all"
-gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 end-of-line-diagnostics = "hint"
+default-yank-register = "\""
+workspace-lsp-roots = []
+default-line-ending = "native"
+insert-final-newline = true
+atomic-save = true
+trim-final-newlines = false
+trim-trailing-whitespace = false
+auto-pairs = true
+
+[editor.gutters]
+layout = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 
 [editor.cursor-shape]
 normal = "block"
@@ -42,10 +61,8 @@ render = true
 character = "│"
 skip-levels = 1
 
-[editor.whitespace.render]
-space = "boundary"
-tab = "all"
-newline = "none"
+[editor.whitespace]
+render = "all"
 
 [editor.whitespace.characters]
 space = "·"
@@ -97,5 +114,4 @@ enable = true
 timeout = 1500
 
 [keys.normal]
-ga = "code_action"
-
+g = { a = "code_action" }
