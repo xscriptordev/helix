@@ -55,30 +55,20 @@ punctuation = { fg = "muted" }
 "punctuation.delimiter" = { fg = "muted" }
 "punctuation.bracket" = { fg = "muted" }
 
-"markup.heading" = { fg = "color5", modifiers = ["bold"] }
-"markup.bold" = { modifiers = ["bold"] }
-"markup.italic" = { modifiers = ["italic"] }
-"markup.strikethrough" = { modifiers = ["crossed_out"] }
-"markup.link.url" = { fg = "color5", modifiers = ["underlined"] }
-"markup.link.label" = { fg = "color6" }
-"markup.quote" = { fg = "color4" }
-"markup.raw.inline" = { fg = "color3" }
-"markup.raw.block" = { fg = "color3" }
-
 rainbow = ["color1", "color2", "color3", "color4", "color5", "color6"]
 
 [palette]
-bg = "#0f111a"
-fg = "#e6e6e6"
-muted = "#7a7f8a"
-menu = "#171a22"
-selection = "#2a2f3a"
-gutter = "#1b1f2a"
-status = "#141820"
+bg = "#363537"
+fg = "#f7f1ff"
+muted = "#69676c"
+menu = "#363537"
+selection = "#69676c"
+gutter = "#363537"
+status = "#363537"
 accent = "#948ae3"
 color1 = "#fc618d"
-color2 = "#fd9353"
+color2 = "#7bd88f"
 color3 = "#fce566"
-color4 = "#7bd88f"
-color5 = "#5ad4e6"
-color6 = "#948ae3"
+color4 = "#fd9353"
+color5 = "#948ae3"
+color6 = "#5ad4e6"
