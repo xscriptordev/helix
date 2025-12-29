@@ -60,7 +60,7 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/ins
   - Minimal: [settings/minimal/config.toml](./settings/minimal/config.toml)
   - Complete: [settings/complete/config.toml](./settings/complete/config.toml)
 - Creates a timestamped backup of an existing ~/.config/helix/config.toml by default. You can disable it with --no-backup or bypass with --force.
-- Default mode is --complete to leave Helix ready with the “xscriptor” theme; you can switch later to any theme included.
+- Default mode is --complete to leave Helix ready with the “x” theme; you can switch later to any theme included.
 
 ## Requirements
 
@@ -71,6 +71,6 @@ sh -c "$(wget -qO- https://raw.githubusercontent.com/xscriptordev/helix/main/ins
 
 - Set a theme in your Helix config:
   ```toml
-  theme = "xscriptor"
+  theme = "x"
   ```
-- Available themes are installed in ~/.config/helix/themes (e.g., "xnord", "xsummernight", "xgreyscale", etc.). Change the value to any theme filename (without .toml).
+- Available themes are installed in ~/.config/helix/themes (e.g., "oslo", "tokio", "berlin", etc.). Change the value to any theme filename (without .toml).

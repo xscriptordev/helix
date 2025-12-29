@@ -1,6 +1,6 @@
 # Schemes
 
-## Xscriptor Theme
+## x
 
 ```json
 {
@@ -23,7 +23,7 @@
 }
 ```
 
-## Xscriptor Theme Light
+## madrid
 
 ```json
 {
@@ -46,7 +46,7 @@
 }
 ```
 
-## X Retro
+## lahabana
 
 ```json
 {
@@ -69,7 +69,7 @@
 }
 ```
 
-## X Dark One
+## seul
 
 ```json
 {
@@ -92,7 +92,7 @@
 }
 ```
 
-## X Candy Pop
+## miami
 
 ```json
 {
@@ -115,7 +115,7 @@
 }
 ```
 
-## X Sense
+## paris
 
 ```json
 {
@@ -138,7 +138,7 @@
 }
 ```
 
-## X Summer Night
+## tokio
 
 ```json
 {
@@ -161,7 +161,7 @@
 }
 ```
 
-## X Nord
+## oslo
 
 ```json
 {
@@ -184,7 +184,7 @@
 }
 ```
 
-## X Nord Inverted
+## helsinki
 
 ```json
 {
@@ -207,7 +207,7 @@
 }
 ```
 
-## X Greyscale
+## berlin
 
 ```json
 {
@@ -230,7 +230,7 @@
 }
 ```
 
-## X Greyscale Inverted
+## london
 
 ```json
 {
@@ -253,7 +253,7 @@
 }
 ```
 
-## X Dark Colors
+## praga
 
 ```json
 {
@@ -276,7 +276,7 @@
 }
 ```
 
-## X Persecution
+## bogota
 
 ```json
 {
