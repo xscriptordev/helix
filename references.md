@@ -253,7 +253,7 @@
 }
 ```
 
-## praga
+## praha
 
 ```json
 {
