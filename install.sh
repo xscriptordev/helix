@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-set -euf
+set -eu
 
 DEFAULT_REPO_URL="https://github.com/xscriptordev/helix"
 BRANCH="main"
@@ -171,6 +171,14 @@ main() {
       err "Invalid mode: $MODE"
       ;;
   esac
+  if [ "$(uname -s)" = "Darwin" ]; then
+    if [ "$DRY_RUN" = "1" ]; then
+      log "DRY: mkdir -p \"$HOME/.config/helix\" && touch \"$HOME/.config/helix/config.toml\""
+    else
+      mkdir -p "$HOME/.config/helix"
+      touch "$HOME/.config/helix/config.toml"
+    fi
+  fi
   log "Install completed"
 }
 
